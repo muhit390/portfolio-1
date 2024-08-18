@@ -176,3 +176,38 @@
         margin-bottom: 0px;
         border-bottom: 1px solid black;
     }
+    
+    .skills {
+        width: 60%;
+        display: flex;
+        margin-left: 20%;
+        padding: 100px;
+        margin-bottom: 50px;
+    }
+    
+    .skills-content {
+        width: 50%;
+        font-size: 40px;
+        color: #3d5a80;
+    }
+    
+    .skills-content h3 {
+        margin-left: 40%;
+        font-weight: bold;
+        font-family: "Bangers", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 60px;
+    }
+    
+    .skills-logo {
+        width: 50%;
+        font-size: 40px;
+        color: #3d5a80;
+    }
+    
+    .skills-logo h3 {
+        margin-left: 50%;
+        font-weight: bold;
+        margin-bottom: 60px;
+    }
