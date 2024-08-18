@@ -87,11 +87,12 @@
     .about-me-head {
         margin-left: 20%;
         width: 60%;
-        margin-top: 100px;
+        margin-top: 50px;
         text-align: center;
         font-weight: bold;
         margin-bottom: 20px;
         border-bottom: 1px solid #3d5a80;
+        padding: 50px;
     }
     
     .about-me-content {
@@ -137,9 +138,32 @@
     }
     
     .education-head {
-        padding: 50px;
+        padding: 50px 50px 30px;
         background-color: #f9f9f9;
         text-align: center;
         width: 60%;
         margin-left: 20%;
+        margin-bottom: 0px;
+        border-bottom: 1px solid black;
+    }
+    
+    .education {
+        background-color: #f9f9f9;
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 0px;
+        padding: 50px;
+        display: flex;
+        margin-bottom: 500px;
+    }
+    
+    .education h3 {
+        margin-top: 50px;
+        font-weight: bold;
+        padding: 20px 40px;
+        font-size: 22px;
+    }
+    
+    .education p {
+        padding: 20px 40px 40px;
     }
