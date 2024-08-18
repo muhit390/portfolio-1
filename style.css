@@ -91,8 +91,9 @@
         text-align: center;
         font-weight: bold;
         margin-bottom: 20px;
-        border-bottom: 1px solid #3d5a80;
+        border-bottom: 1px solid #dddddd;
         padding: 50px;
+        color: #3d5a80;
     }
     
     .about-me-content {
@@ -105,16 +106,18 @@
     .about-me-content h3 {
         margin: 70px 0px;
         font-size: 25px;
+        color: #3d5a80;
     }
     
     .about-me-content p {
         margin: 70px 0px 100px;
         font-size: 19px;
+        color: #3d5a80;
     }
     
     .about-me-content-contect {
         display: flex;
-        border-top: 1px #3d5a80 solid;
+        border-top: 1px #dddddd solid;
         margin-right: 0%;
     }
     
@@ -122,6 +125,7 @@
         margin-top: 50px;
         margin-left: 10%;
         font-size: 17px;
+        color: #3d5a80;
     }
     
     .about-me-pic {
@@ -144,7 +148,8 @@
         width: 60%;
         margin-left: 20%;
         margin-bottom: 0px;
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid #dddddd;
+        color: #3d5a80;
     }
     
     .education {
@@ -162,10 +167,12 @@
         font-weight: bold;
         padding: 20px 40px;
         font-size: 22px;
+        color: #3d5a80;
     }
     
     .education p {
         padding: 20px 40px 40px;
+        color: #3d5a80;
     }
     
     .skills-head {
@@ -174,7 +181,8 @@
         width: 60%;
         margin-left: 20%;
         margin-bottom: 0px;
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid #dddddd;
+        color: #3d5a80;
     }
     
     .skills {
@@ -198,6 +206,7 @@
         font-weight: 400;
         font-style: normal;
         margin-bottom: 60px;
+        letter-spacing: 5px;
     }
     
     .skills-logo {
