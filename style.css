@@ -236,4 +236,11 @@
         width: 60%;
         margin-left: 20%;
         padding: 50px;
+        text-align: center;
+    }
+    
+    .profiles-content {
+        margin-left: 60px;
+        border: 1px solid #3d5a80;
+        padding: 100px;
     }
