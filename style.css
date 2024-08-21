@@ -232,7 +232,8 @@
     }
     
     .profiles {
-        border: 1px solid #3d5a80;
+        display: flex;
+        border: 1px solid #dddddd;
         width: 60%;
         margin-left: 20%;
         padding: 50px;
@@ -240,7 +241,34 @@
     }
     
     .profiles-content {
-        margin-left: 60px;
-        border: 1px solid #3d5a80;
-        padding: 100px;
+        position: relative;
+        font-size: 35px;
+    }
+    
+    .profiles-content:last-child a {
+        border-right: 0px;
+    }
+    
+    .profiles-content a {
+        text-decoration: none;
+        color: #3d5a80;
+        border-right: 1px solid #dddddd;
+        border-bottom: 1px solid #dddddd;
+        display: block;
+        padding: 170px;
+    }
+    
+    .profiles-content a:hover {
+        background-color: #ee6c4d;
+        color: #e0fbfc;
+        transition: 0.5s;
+    }
+    
+    .profiles-content a:last-child {
+        border-bottom: 0px;
+    }
+    
+    .profiles-content a i {
+        display: block;
+        margin-bottom: 30px;
     }
