@@ -238,6 +238,7 @@
         margin-left: 20%;
         padding: 50px;
         text-align: center;
+        margin-bottom: 150px;
     }
     
     .profiles-content {
@@ -261,7 +262,7 @@
     .profiles-content a:hover {
         background-color: #ee6c4d;
         color: #e0fbfc;
-        transition: 0.5s;
+        transition: 0.6s;
     }
     
     .profiles-content a:last-child {
@@ -270,5 +271,5 @@
     
     .profiles-content a i {
         display: block;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
