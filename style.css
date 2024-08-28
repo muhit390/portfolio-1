@@ -273,7 +273,3 @@
         display: block;
         margin-bottom: 40px;
     }
-    
-    .profiles-head {
-        content: counter();
-    }
